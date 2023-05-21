@@ -179,7 +179,6 @@ public class Character {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Character character)) return false;
-
         if (getLevel() != character.getLevel()) return false;
         if (getExperience() != character.getExperience()) return false;
         if (getStrength() != character.getStrength()) return false;
