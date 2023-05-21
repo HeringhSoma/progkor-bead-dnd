@@ -14,8 +14,7 @@
 	<name>dnd-character-database</name>
 	<description>Egy adatbázis ahol szerepjáték karakterek adatait lehet eltárolni</description>
 	<properties>
-		<maven.compiler.source>17</maven.compiler.source>
-		<maven.compiler.target>17</maven.compiler.target>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
